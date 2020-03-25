@@ -3,6 +3,7 @@
 ###############################################################################
 * text=auto
 
+
 ###############################################################################
 # Set default behavior for command prompt diff.
 #
@@ -43,6 +44,9 @@
 #*.jpg   binary
 #*.png   binary
 #*.gif   binary
+*.manifest binary
+*.application binary
+*.deploy binary
 
 ###############################################################################
 # diff behavior for common document formats
