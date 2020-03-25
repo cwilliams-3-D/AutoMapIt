@@ -756,7 +756,7 @@ Public Class Form1
         LoadConfig()
     End Sub
 
-    Private Sub MetroButton1_Click_1(sender As Object, e As EventArgs) Handles MetroButton1.Click
+    Private Sub MetroButton1_Click_1(sender As Object, e As EventArgs) 
         Dim surface As Graphics = CreateGraphics()
         Dim pen1 As Pen = New Pen(Color.Black, 3)
         surface.DrawLine(pen1, 10, 10, 100, 10)

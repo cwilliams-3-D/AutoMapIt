@@ -51,7 +51,6 @@ Partial Class Form1
         Me.MetroContextMenu2 = New MetroFramework.Controls.MetroContextMenu(Me.components)
         Me.AddMapLayoutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExportMapToImageToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.MetroButton1 = New MetroFramework.Controls.MetroButton()
         Me.MetroButton2 = New MetroFramework.Controls.MetroButton()
         Me.MetroButton3 = New MetroFramework.Controls.MetroButton()
         Me.MetroContextMenu3 = New MetroFramework.Controls.MetroContextMenu(Me.components)
@@ -322,16 +321,6 @@ Partial Class Form1
         Me.ExportMapToImageToolStripMenuItem.Size = New System.Drawing.Size(185, 22)
         Me.ExportMapToImageToolStripMenuItem.Text = "Export Map to Image"
         '
-        'MetroButton1
-        '
-        Me.MetroButton1.Location = New System.Drawing.Point(670, 10)
-        Me.MetroButton1.Name = "MetroButton1"
-        Me.MetroButton1.Size = New System.Drawing.Size(107, 23)
-        Me.MetroButton1.Style = MetroFramework.MetroColorStyle.Green
-        Me.MetroButton1.TabIndex = 29
-        Me.MetroButton1.Text = "Draw Line"
-        Me.MetroButton1.UseSelectable = True
-        '
         'MetroButton2
         '
         Me.MetroButton2.BackColor = System.Drawing.Color.Transparent
@@ -401,7 +390,6 @@ Partial Class Form1
         Me.ClientSize = New System.Drawing.Size(1468, 806)
         Me.Controls.Add(Me.MetroButton3)
         Me.Controls.Add(Me.MetroButton2)
-        Me.Controls.Add(Me.MetroButton1)
         Me.Controls.Add(Me.MetroButton5)
         Me.Controls.Add(Me.MetroTabControl1)
         Me.Controls.Add(Me.button4)
@@ -461,7 +449,6 @@ Partial Class Form1
     Friend WithEvents ToolStripMenuItem2 As ToolStripMenuItem
     Friend WithEvents SaveConfigToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents MetroContextMenu2 As MetroFramework.Controls.MetroContextMenu
-    Friend WithEvents MetroButton1 As MetroFramework.Controls.MetroButton
     Friend WithEvents AddMapLayoutToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ExportMapToImageToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents MetroButton2 As MetroFramework.Controls.MetroButton
