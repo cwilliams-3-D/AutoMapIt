@@ -58,7 +58,6 @@ Partial Class Form1
         Me.ToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem4 = New System.Windows.Forms.ToolStripMenuItem()
         Me.button4 = New MetroFramework.Controls.MetroButton()
-        Me.MetroButton1 = New MetroFramework.Controls.MetroButton()
         CType(Me.MetroStyleManager1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MetroPanel2.SuspendLayout()
         CType(Me.CurrentImage, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -384,24 +383,11 @@ Partial Class Form1
         Me.button4.Text = "Delete"
         Me.button4.UseSelectable = True
         '
-        'MetroButton1
-        '
-        Me.MetroButton1.BackColor = System.Drawing.Color.Transparent
-        Me.MetroButton1.Location = New System.Drawing.Point(868, 23)
-        Me.MetroButton1.Name = "MetroButton1"
-        Me.MetroButton1.Size = New System.Drawing.Size(107, 23)
-        Me.MetroButton1.Style = MetroFramework.MetroColorStyle.Green
-        Me.MetroButton1.TabIndex = 32
-        Me.MetroButton1.Text = "Elements"
-        Me.MetroButton1.UseCustomBackColor = True
-        Me.MetroButton1.UseSelectable = True
-        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1468, 806)
-        Me.Controls.Add(Me.MetroButton1)
         Me.Controls.Add(Me.MetroButton3)
         Me.Controls.Add(Me.MetroButton2)
         Me.Controls.Add(Me.MetroButton5)
@@ -471,5 +457,4 @@ Partial Class Form1
     Friend WithEvents ToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents ToolStripMenuItem3 As ToolStripMenuItem
     Friend WithEvents ToolStripMenuItem4 As ToolStripMenuItem
-    Friend WithEvents MetroButton1 As MetroFramework.Controls.MetroButton
 End Class
